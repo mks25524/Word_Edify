@@ -1,13 +1,15 @@
-package com.example.anew.word_edify;
+package com.example.anew.word_edify.Activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.example.anew.word_edify.R;
+
+public class Home_Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_splash_ );
     }
 }

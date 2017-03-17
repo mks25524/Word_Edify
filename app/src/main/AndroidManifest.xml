@@ -8,17 +8,19 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+
+        <activity
+            android:name=".Activities.Home_Activity"
+            android:label="@string/title_activity_splash_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MakingSplash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Activities.Splash_Activity"
-            android:label="@string/title_activity_splash_"
-            android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
             android:name=".Activities.Gameboard_Activity"
             android:label="@string/title_activity_gameboard_"
