@@ -2,4 +2,5 @@
     <string name="app_name">Word_Edify</string>
     <string name="title_activity_splash_">Splash_Activity</string>
     <string name="title_activity_gameboard_">Gameboard_Activity</string>
+    <string name="title_activity_howto_play_">HowtoPlay_Activity</string>
 </resources>
